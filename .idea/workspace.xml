@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="482f356c-b288-40e9-b97e-b0b625d76a52" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/variants/_discounted_price.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/overrides/add_discount_price_to_variants_form.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/spree/admin/variants/index.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/spree/variant_decorator.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20140401070746_add_discounted_amount_to_spree_prices.rb" afterPath="$PROJECT_DIR$/db/migrate/20140401070746_add_discounted_amount_to_spree_prices.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/spree_price_slashes/engine.rb" afterPath="$PROJECT_DIR$/lib/spree_price_slashes/engine.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/spree/price_decorator.rb" afterPath="$PROJECT_DIR$/app/models/spree/price_decorator.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spree_price_slashes.gemspec" afterPath="$PROJECT_DIR$/spree_price_slashes.gemspec" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/spree_price_slashes.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="spree_price_slashes.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -66,10 +68,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="20140401070746_add_discounted_amount_to_spree_prices.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="20140401070746_add_discounted_amount_to_spree_prices.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db/migrate/20140401070746_add_discounted_amount_to_spree_prices.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="88" selection-start="166" selection-end="166" vertical-scroll-proportion="0.047923323" vertical-offset="0" max-vertical-offset="626">
+            <state line="2" column="88" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="6" selection-start="15" selection-end="15" vertical-scroll-proportion="0.023961661" vertical-offset="0" max-vertical-offset="626">
               <folding />
             </state>
           </provider>
@@ -98,6 +109,7 @@
         <option value="$PROJECT_DIR$/app/models/spree/price_decorator.rb" />
         <option value="$PROJECT_DIR$/app/views/spree/admin/variants/index.html.erb" />
         <option value="$PROJECT_DIR$/db/migrate/20140401070746_add_discounted_amount_to_spree_prices.rb" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -678,7 +690,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20140401070746_add_discounted_amount_to_spree_prices.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="88" selection-start="166" selection-end="166" vertical-scroll-proportion="0.047923323" vertical-offset="0" max-vertical-offset="626">
+        <state line="2" column="88" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="6" selection-start="15" selection-end="15" vertical-scroll-proportion="0.023961661" vertical-offset="0" max-vertical-offset="626">
           <folding />
         </state>
       </provider>
