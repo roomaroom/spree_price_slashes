@@ -1,0 +1,4 @@
+<div class="field" data-hook="discounted_price">
+  <%= f.label :discounted_amount, Spree.t(:discounted_amount) %>
+  <%= f.text_field :discounted_amount, :value => number_to_currency(@variant.discounted_amount, :unit => ''), :class => 'fullwidth' %>
+</div>
