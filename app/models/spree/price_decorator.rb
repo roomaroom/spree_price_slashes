@@ -4,7 +4,7 @@ Spree::Price.class_eval do
 
   validates :discounted_amount, numericality: { greater_than_or_equal_to: 0 }, allow_nil: true
   validates_each :discounted_amount do |record, attr, value|
-    record.errors.add(attr, 'cannot be greater than the price') if value > record.amount
+    record.errors.add(attr, 'cannot be greater than the price') if value.to_f > record.amount.to_f
   end
 
   def discounted?
