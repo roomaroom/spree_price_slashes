@@ -15,7 +15,6 @@ Spree::Price.class_eval do
     discounted? ? money_with_discount : money
   end
   alias_method_chain :display_price, :discounted_amount
-  #alias :display_price :display_amount
 
   def price_with_discounted_amount
     discounted?? discounted_amount : price_without_discounted_amount
@@ -28,7 +27,7 @@ Spree::Price.class_eval do
 
   def discount_as_percentage
     return unless discounted?
-    percentage = ((discounted_amount / amount) * 100).to_i
+    percentage = (((amount - discounted_amount) / amount) * 100).to_i
     "#{percentage}%"
   end
 
