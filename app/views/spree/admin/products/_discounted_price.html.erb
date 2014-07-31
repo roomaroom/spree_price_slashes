@@ -1,0 +1,5 @@
+<%= f.field_container :discounted_amount do %>
+  <%= f.label :discounted_amount, Spree.t(:discounted_amount) %>
+  <%= f.text_field :discounted_amount, :value => number_to_currency(@product.discounted_amount, :unit => '') %>
+  <%= f.error_message_on :discounted_amount %>
+<% end %>
