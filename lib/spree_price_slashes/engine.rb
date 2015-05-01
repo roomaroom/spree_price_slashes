@@ -5,7 +5,11 @@ module SpreePriceSlashes
 
     def self.activate
       Dir.glob Engine.root.join("app/**/*_decorator*.rb") do |c|
-        Rails.env.production? ? require(c) : load(c)
+        if Rails.env.production? || Rails.env.staging? 
+          require(c)
+        else
+          load(c)
+        end
       end
     end
 
